@@ -1,0 +1,10 @@
+[package]
+name = "math-ident"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+unicode-ident = "1.0.18"
